@@ -1,0 +1,25 @@
+{
+  "name": "piglatin-email-server",
+  "version": "1.0.0",
+  "description": "An email server that responds with pig latin mocking replies 🐷✉️",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pig-latin",
+    "email",
+    "server",
+    "fun",
+    "parody",
+    "mocking"
+  ],
+  "author": "craigw@ast.engineer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
